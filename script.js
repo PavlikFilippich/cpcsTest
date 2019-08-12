@@ -44,13 +44,18 @@ function showForm(){
 function gamburger(){
     const step = document.querySelector('.step');
     const gamburger = document.querySelector('.gamburger');
+    const widthWin = $( window ).width();
+    console.log(widthWin);
     $(".gamburger").click(function(){
         step.style.display = "flex";
         gamburger.style.display ="none";
     })
     $(".step a").click(function(){
-        gamburger.style.display = "flex";
-        step.style.display ="none";
+        if(widthWin < 991){
+            gamburger.style.display = "flex";
+            step.style.display ="none";
+        }
+       
     })
 }
 
