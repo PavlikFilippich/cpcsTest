@@ -19,7 +19,7 @@ body{
     max-width: 1440px;
     width: 100%;
     margin: auto;
-    min-width: 460px;
+    min-width: 300px;
 }
 
 #menu-adaptive{
@@ -748,10 +748,10 @@ footer{
         clip-path: polygon(0 0, 50% 70%, 100% 0);
         height: 3rem;
     }
-}
 
-#enterForm{
-    margin-left: 2rem;
+    #enterForm{
+        margin-left: 2rem;
+    }
 }
 
 @media all and (max-width:767.98px) and (min-width: 576px){
@@ -872,31 +872,31 @@ footer{
         height: 3rem;
         width: 5rem;
     }
+
+    .bjud-content{
+        transform: translateY(-10%);
     
-}
-
-.bjud-content{
-    transform: translateY(-10%);
-
-    .bjud-content-info{
-        flex-direction: column;
-
-        h3{
-            text-align: center;
-        }
-
-        &__text{
-            text-align: center;
-            margin: auto;
-            padding: 1rem 0;
-        }
-
-        &__image{
-            justify-content: flex-end;
-            width:auto;
-            align-self: flex-end;
+        .bjud-content-info{
+            flex-direction: column;
+    
+            h3{
+                text-align: center;
+            }
+    
+            &__text{
+                text-align: center;
+                margin: auto;
+                padding: 1rem 0;
+            }
+    
+            &__image{
+                justify-content: flex-end;
+                width:auto;
+                align-self: flex-end;
+            }
         }
     }
+    
 }
 
 @media all and (max-width: 575.98px)and (min-width: 460px){
@@ -1020,6 +1020,30 @@ footer{
         width: 5rem;
     }
     
+    .bjud-content{
+        transform: translateY(-10%);
+    
+        .bjud-content-info{
+            flex-direction: column;
+    
+            h3{
+                text-align: center;
+            }
+    
+            &__text{
+                text-align: center;
+                margin: auto;
+                padding: 1rem 0;
+            }
+    
+            &__image{
+                justify-content: flex-end;
+                width:auto;
+                align-self: flex-end;
+            }
+        }
+    }
+
     .bjud-content-form{
         form{
         
@@ -1099,8 +1123,282 @@ footer{
         }
     }
 }
-@media all and (max-width: 575.98px){
-     
+
+@media all and (max-width: 459.98px){
+    #menu{
+
+        align-items: center;
+        margin-top:1rem;
+
+
+        .twoBlock{
+            display: none;
+        }
+        
+        .gamburger{
+            display: flex;
+            font-size: 2rem;
+        }
+
+        .logo{
+            margin-left: 1rem;
+            padding:  0.2rem;
+            width: 30%;
+
+        }
+
+        .step{
+            display: none;
+            flex-direction: column;
+            white-space: normal;
+            text-align: right;
+            flex-grow: 0;
+            overflow: visible;
+            justify-content: center;
+            align-items: baseline;
+            width: 60%;
+
+            a{
+                width: 60%;
+                font-size: 0.8rem;
+                margin-right: 1rem;
+            }
+
+            &__one, &__two , &__three{
+                text-align: right;
+
+            }
+            &__one:after, &__two:after {
+                display: none;
+
+            }
+
+            &__three:before, &__two:before {
+                display: none;
+
+            }
+
+        }
+    }
+
+    .vad-content{
+        flex-direction: column;
+        margin: 1rem;
+
+        h1{
+            text-align: center;
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+
+        &__text{
+            width: 100%;
+
+            p{
+                text-align: center;
+                width: 100%;
+                font-size: 1rem;
+            }
+        }
+
+        &__image{
+            width: 80%;
+        }
+    }
+
+    .fem-content{
+
+        
+
+        &__blocks{
+            flex-direction: column;
+            justify-content: center;
+
+            figure{
+                margin-right: 1rem;
+
+                img{
+                    width:1.5rem;
+                }
+
+                figcaption{
+                    font-size: .9rem;
+                    transform: translateY(40%);
+                }
+            }
+        }
+        h2{
+            text-align: center;
+            font-size: 1.5rem;
+        }
+
+       &__text{
+
+        ul{
+
+            li{
+
+                a{
+                    font-size: 1rem;
+                }
+            }
+        }
+           
+       }
+
+        &__blocks-left , &__blocks-right{
+            width: 90%;
+            margin-left: 1rem;
+            font-size: 0.7rem;
+            line-height: 0.8rem;
+
+            div{
+                width: 100%;
+                text-align: center;
+                padding-top:0; 
+            }
+
+            .afterSec{
+                margin-top: 1rem;
+            }
+        
+        } 
+    }
+
+    .arrow{
+        clip-path: polygon(0 0, 50% 50%, 100% 0);
+        height: 2rem;
+        width: 4rem;
+    }
+    
+    .bjud-content{
+        transform: translateY(-10%);
+    
+        .bjud-content-info{
+            flex-direction: column;
+    
+            h3{
+                text-align: center;
+                font-size: 1.5rem;
+                font-weight: bold;
+            }
+    
+            &__text{
+                text-align: center;
+                margin: auto;
+                padding: 1rem 0;
+
+                p{
+                    font-size: 1rem;
+                }
+            }
+    
+            &__image{
+                justify-content: flex-end;
+                width:4rem;
+                align-self: flex-end;
+            }
+        }
+
+       
+    }
+
+    .bjud-content-form{
+
+        #showForm {
+            padding: 0.2rem 3rem .6rem 3rem;
+            font-size: 1.5rem;
+            line-height: 1.5rem;
+            margin-left:1rem; 
+        }
+    
+        #showForm:before {
+            border-width: 24px 0px 24px 15px;
+        }
+    
+        #showForm:after {
+            border-width: 21.5px 0 22px 15px;
+        }
+
+        form{
+ 
+            top:0;
+            background-color: rgba(0,0,0,0.35);
+            padding: 1rem 0 0 0;
+            color: white;
+            font-family: $fontFamSt;
+            display: none;
+            flex-direction: column;
+            font-size: $fontSizeText;
+            position: absolute;
+            width: 100%;
+            overflow: hidden;
+
+    
+            h4{
+                margin: 0;
+                font-size:1.3rem;
+                margin-left: 2.5rem;
+            }
+
+            p{
+                font-size: 1rem;
+                text-align: center;
+                margin-bottom: 0;
+            }
+    
+            section{
+                display: flex;
+                flex-direction: column;
+                align-items:center;
+                margin-left: auto;
+    
+                .input{
+                    width: 60%;
+                    
+    
+                    p{
+                        margin-bottom: 0.5rem;
+                        font-size: 1rem;
+                        margin-left: 0;
+                        text-align: center;
+                    }
+    
+                    input{
+                        height: 2rem;
+                        width: 100%;
+                        font-size: 2.5rem;
+                    }
+    
+                    
+                }
+                .button{
+                    margin: auto;
+                    justify-content: center;
+                }
+                
+                #enterForm {
+                    margin: auto;
+                    cursor: pointer;
+                    position: relative;
+                    padding: 0.2rem 3rem .6rem 3rem;
+                    font-size: 1.5rem;
+                    line-height: 1.5rem;
+                }
+               
+                
+                #enterForm:before {  
+                    border-width: 23px 0px 23px 15px;
+                }
+                
+                #enterForm:after {           
+                    border-width: 21px 0 21px 15px;
+                }
+           
+            }
+        }
+    }
 }
 
 

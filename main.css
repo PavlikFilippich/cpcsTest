@@ -9,7 +9,7 @@ body {
   max-width: 1440px;
   width: 100%;
   margin: auto;
-  min-width: 460px; }
+  min-width: 300px; }
 
 #menu-adaptive {
   display: none;
@@ -525,10 +525,9 @@ footer {
     margin-left: 5rem; }
   .arrow {
     clip-path: polygon(0 0, 50% 70%, 100% 0);
-    height: 3rem; } }
-
-#enterForm {
-  margin-left: 2rem; }
+    height: 3rem; }
+  #enterForm {
+    margin-left: 2rem; } }
 
 @media all and (max-width: 767.98px) and (min-width: 576px) {
   #menu {
@@ -592,22 +591,21 @@ footer {
   .arrow {
     clip-path: polygon(0 0, 50% 50%, 100% 0);
     height: 3rem;
-    width: 5rem; } }
-
-.bjud-content {
-  transform: translateY(-10%); }
-  .bjud-content .bjud-content-info {
-    flex-direction: column; }
-    .bjud-content .bjud-content-info h3 {
-      text-align: center; }
-    .bjud-content .bjud-content-info__text {
-      text-align: center;
-      margin: auto;
-      padding: 1rem 0; }
-    .bjud-content .bjud-content-info__image {
-      justify-content: flex-end;
-      width: auto;
-      align-self: flex-end; }
+    width: 5rem; }
+  .bjud-content {
+    transform: translateY(-10%); }
+    .bjud-content .bjud-content-info {
+      flex-direction: column; }
+      .bjud-content .bjud-content-info h3 {
+        text-align: center; }
+      .bjud-content .bjud-content-info__text {
+        text-align: center;
+        margin: auto;
+        padding: 1rem 0; }
+      .bjud-content .bjud-content-info__image {
+        justify-content: flex-end;
+        width: auto;
+        align-self: flex-end; } }
 
 @media all and (max-width: 575.98px) and (min-width: 460px) {
   #menu {
@@ -674,6 +672,20 @@ footer {
     clip-path: polygon(0 0, 50% 50%, 100% 0);
     height: 3rem;
     width: 5rem; }
+  .bjud-content {
+    transform: translateY(-10%); }
+    .bjud-content .bjud-content-info {
+      flex-direction: column; }
+      .bjud-content .bjud-content-info h3 {
+        text-align: center; }
+      .bjud-content .bjud-content-info__text {
+        text-align: center;
+        margin: auto;
+        padding: 1rem 0; }
+      .bjud-content .bjud-content-info__image {
+        justify-content: flex-end;
+        width: auto;
+        align-self: flex-end; }
   .bjud-content-form form {
     top: 0;
     background-color: rgba(0, 0, 0, 0.35);
@@ -720,5 +732,162 @@ footer {
         border-width: 30px 0px 30px 15px; }
       .bjud-content-form form section #enterForm:after {
         border-width: 28px 0 28px 15px; } }
+
+@media all and (max-width: 459.98px) {
+  #menu {
+    align-items: center;
+    margin-top: 1rem; }
+    #menu .twoBlock {
+      display: none; }
+    #menu .gamburger {
+      display: flex;
+      font-size: 2rem; }
+    #menu .logo {
+      margin-left: 1rem;
+      padding: 0.2rem;
+      width: 30%; }
+    #menu .step {
+      display: none;
+      flex-direction: column;
+      white-space: normal;
+      text-align: right;
+      flex-grow: 0;
+      overflow: visible;
+      justify-content: center;
+      align-items: baseline;
+      width: 60%; }
+      #menu .step a {
+        width: 60%;
+        font-size: 0.8rem;
+        margin-right: 1rem; }
+      #menu .step__one, #menu .step__two, #menu .step__three {
+        text-align: right; }
+      #menu .step__one:after, #menu .step__two:after {
+        display: none; }
+      #menu .step__three:before, #menu .step__two:before {
+        display: none; }
+  .vad-content {
+    flex-direction: column;
+    margin: 1rem; }
+    .vad-content h1 {
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 1rem; }
+    .vad-content__text {
+      width: 100%; }
+      .vad-content__text p {
+        text-align: center;
+        width: 100%;
+        font-size: 1rem; }
+    .vad-content__image {
+      width: 80%; }
+  .fem-content__blocks {
+    flex-direction: column;
+    justify-content: center; }
+    .fem-content__blocks figure {
+      margin-right: 1rem; }
+      .fem-content__blocks figure img {
+        width: 1.5rem; }
+      .fem-content__blocks figure figcaption {
+        font-size: .9rem;
+        transform: translateY(40%); }
+  .fem-content h2 {
+    text-align: center;
+    font-size: 1.5rem; }
+  .fem-content__text ul li a {
+    font-size: 1rem; }
+  .fem-content__blocks-left, .fem-content__blocks-right {
+    width: 90%;
+    margin-left: 1rem;
+    font-size: 0.7rem;
+    line-height: 0.8rem; }
+    .fem-content__blocks-left div, .fem-content__blocks-right div {
+      width: 100%;
+      text-align: center;
+      padding-top: 0; }
+    .fem-content__blocks-left .afterSec, .fem-content__blocks-right .afterSec {
+      margin-top: 1rem; }
+  .arrow {
+    clip-path: polygon(0 0, 50% 50%, 100% 0);
+    height: 2rem;
+    width: 4rem; }
+  .bjud-content {
+    transform: translateY(-10%); }
+    .bjud-content .bjud-content-info {
+      flex-direction: column; }
+      .bjud-content .bjud-content-info h3 {
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bold; }
+      .bjud-content .bjud-content-info__text {
+        text-align: center;
+        margin: auto;
+        padding: 1rem 0; }
+        .bjud-content .bjud-content-info__text p {
+          font-size: 1rem; }
+      .bjud-content .bjud-content-info__image {
+        justify-content: flex-end;
+        width: 4rem;
+        align-self: flex-end; }
+  .bjud-content-form #showForm {
+    padding: 0.2rem 3rem .6rem 3rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    margin-left: 1rem; }
+  .bjud-content-form #showForm:before {
+    border-width: 24px 0px 24px 15px; }
+  .bjud-content-form #showForm:after {
+    border-width: 21.5px 0 22px 15px; }
+  .bjud-content-form form {
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.35);
+    padding: 1rem 0 0 0;
+    color: white;
+    font-family: ParalucentCondensedW00-Lt;
+    display: none;
+    flex-direction: column;
+    font-size: 1.5rem;
+    position: absolute;
+    width: 100%;
+    overflow: hidden; }
+    .bjud-content-form form h4 {
+      margin: 0;
+      font-size: 1.3rem;
+      margin-left: 2.5rem; }
+    .bjud-content-form form p {
+      font-size: 1rem;
+      text-align: center;
+      margin-bottom: 0; }
+    .bjud-content-form form section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: auto; }
+      .bjud-content-form form section .input {
+        width: 60%; }
+        .bjud-content-form form section .input p {
+          margin-bottom: 0.5rem;
+          font-size: 1rem;
+          margin-left: 0;
+          text-align: center; }
+        .bjud-content-form form section .input input {
+          height: 2rem;
+          width: 100%;
+          font-size: 2.5rem; }
+      .bjud-content-form form section .button {
+        margin: auto;
+        justify-content: center; }
+      .bjud-content-form form section #enterForm {
+        margin: auto;
+        cursor: pointer;
+        position: relative;
+        padding: 0.2rem 3rem .6rem 3rem;
+        font-size: 1.5rem;
+        line-height: 1.5rem; }
+      .bjud-content-form form section #enterForm:before {
+        border-width: 23px 0px 23px 15px; }
+      .bjud-content-form form section #enterForm:after {
+        border-width: 21px 0 21px 15px; } }
 
 /*# sourceMappingURL=main.css.map */
